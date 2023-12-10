@@ -1,0 +1,78 @@
+body {
+	background-color: #CCCCFF;
+}
+div {
+	position: absolute;
+	top: 10px;
+}
+ul, ul li {
+	margin: 0;
+	padding: 0;
+}
+#blok li {
+	list-style: none;
+}
+#blok, #blok ul{
+	width: 120px;
+}
+#blok ul {
+	position: absolute;
+	top: 0;
+	left: 97px;
+	padding-left: 1px;
+	visibility: hidden;
+}
+#blok li {
+	padding-bottom: 1px;
+	position: relative;
+}
+#blok li:hover ul {
+	visibility: visible;
+	width: auto;
+	height: auto;
+}
+#blok a, #blok li:hover li a {
+	display: block;
+	font: 12px/30px verdana, sans-serif;
+	text-decoration: none;
+	padding: 0 10px;
+	width: 75px;
+	color: black;
+	background-color: #FFCCFF;
+	outline: 1px solid black;
+}
+#blok li:hover a, #blok li:hover li:hover a {
+	background-color: #FF66FF;
+	color: white;
+	font-weight: bold;
+	outline: 2px dotted white;
+}
+#blok li:hover li a[id = "1"], #blok li:hover li:hover a [id = "1"] {
+	width: 205px;
+}
+#blok li:hover li a[id = "2"], #blok li:hover li:hover a [id = "2"] {
+	width: 90px;
+}
+#blok li:hover li a[id = "3"], #blok li:hover li:hover a [id = "3"] {
+	width: 40px;
+}
+#blok li:hover li a[id = "4"], #blok li:hover li:hover a [id = "4"] {
+	width: 115px;
+}
+img[id = "z1"]{
+	height: 225px;
+}
+img[id = "z2"]{
+	height: 170px;
+}
+img[id = "z3"]{
+	height: 100px;
+}
+img[id = "z4"]{
+	height: 200px;
+}
+#xd {
+	height: 1px;
+	width: 1px;
+	opacity: 0%;
+}
